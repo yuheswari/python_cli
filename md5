@@ -1,0 +1,12 @@
+#! /usr/bin/php
+<?php
+
+//print("md5 uk \n");
+
+//print_r($argv);
+
+if(count($argv)!=2){
+    die("usage: md5 \"<string>\"\n");
+}
+
+print(md5($argv[1]));
